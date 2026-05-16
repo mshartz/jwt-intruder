@@ -29,7 +29,7 @@ It also populates a signing configuration section where users can select the sig
 
 <img width="1010" height="429" alt="Image" src="https://github.com/user-attachments/assets/58098577-c226-4950-9233-5dfdfe02037f" />
 
-After applying the configuration using the `Apply Configuration` button, users can send the request to Intruder. In the Intruder tab, select the entire JWT as the payload, and select the desired payload. Current implementation only supports basic `Sniper` attacks, but development on additional functionality is pending. 
+After applying the configuration using the `Apply Configuration` button, users can send the request to Intruder. In the Intruder tab, select the entire JWT as the payload, and select the desired payload. Under Payload Processing, select `Invoke Burp Extension` and select `JWT - Signing Processor`. Current implementation only supports basic `Sniper` attacks, but development on additional functionality is pending. 
 
 __IMPORTANT NOTE__: DISABLE URL ENCODING OF SPECIAL CHARACTERS!!!! This took the developer an unfortunately long time to realize. Please save yourselves the frustration. 
 
